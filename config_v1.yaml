@@ -57,7 +57,7 @@ model:
   lr_scheduler_hparams:
     step_size: 25
   prediction_threshold: 0.5
-  model_class: CNN1
+  model_class: CNN2
   model_param:
     input_dim: 12
     num_classes: 5
@@ -89,4 +89,4 @@ data:
 wandb_name: ''
 wandb_entity: deeplearningecg
 wandb_project: PTBXL_ECG_real
-ckpt_path: null #/Users/Awais/Documents/Checkpoints/Max Pooling/best.ckpt
+ckpt_path: /Users/Awais/Documents/Checkpoints/Max Pooling/best.ckpt
